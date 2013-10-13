@@ -1,7 +1,14 @@
-execute pathogen#infect()
+set nocompatible
+
+" plugins
+call pathogen#infect()
+"generate helptags
+call pathogen#helptags()
+filetype plugin on
+filetype plugin indent on
+filetype indent on
 
 syntax on
-filetype plugin indent on
 
 "Disable arrow keys 
 noremap <Up> <NOP>

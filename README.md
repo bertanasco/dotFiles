@@ -1,5 +1,5 @@
 
-#Various dot files
+#Various dotfiles
 
 ##VIM!!
 Vim configuration from  scratch 

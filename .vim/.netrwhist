@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/bertanasco'
-let g:netrw_dirhist_2='/Users/bertanasco/.vim/bundle/vim-colors-solarized/.git'
-let g:netrw_dirhist_3='/Users/bertanasco'
-let g:netrw_dirhist_4='/Users/bertanasco/workspace/legal'
-let g:netrw_dirhist_5='/Users/bertanasco/.vim'

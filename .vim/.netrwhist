@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/bertanasco/workspace/legal'
 let g:netrw_dirhist_2='/Users/bertanasco/.vim/bundle'
+let g:netrw_dirhist_3='/Users/bertanasco/workspace/legal'
+let g:netrw_dirhist_4='/Users/bertanasco/workspace/legal/lib'
+let g:netrw_dirhist_5='/Users/bertanasco/workspace/legal'
+let g:netrw_dirhist_6='/Users/bertanasco/workspace/legal/lib'
+let g:netrw_dirhist_7='/Users/bertanasco'

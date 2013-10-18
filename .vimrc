@@ -27,15 +27,22 @@ set complete-=i
 "enable line numbers 
 set nu
 
+
+"================================================
+"P L U G I N S
+"===============================================
+
+
 "color scheme
 set background=dark
 "solarized options 
+set t_Co=256
 let g:solarized_termcolors = 256
 let g:solarized_visibility = "high"
 let g:solarized_contrast = "high"
 "colorscheme solarized
-"colorscheme rails
-colorscheme noctu
+colorscheme rails
+"colorscheme noctu
 
 
 

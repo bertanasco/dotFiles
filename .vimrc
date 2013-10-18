@@ -17,7 +17,7 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
-"enable back space in 
+"enable back space in insert mode
 set backspace=indent,eol,start
 
 set showmatch

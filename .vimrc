@@ -10,6 +10,7 @@ filetype indent on
 
 syntax on
 
+"Break the habit of reaching for the arrow keys!!!
 "Disable arrow keys 
 noremap <Up> <NOP>
 noremap <Down> <NOP>
@@ -25,3 +26,11 @@ set complete-=i
 
 "enable line numbers 
 set nu
+
+"color scheme
+set background=dark
+"solarized options 
+let g:solarized_termcolors = 256
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+colorscheme solarized

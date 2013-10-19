@@ -9,6 +9,9 @@ filetype plugin indent on
 filetype indent on
 
 syntax on
+"Fix copy paste from other applications
+"[update] this actually breaks snipmate :(
+"set paste
 
 "Break the habit of reaching for the arrow keys!!!
 "Disable arrow keys 
@@ -30,7 +33,11 @@ set nu
 "================================================
 "P L U G I N S
 "===============================================
-
+"NERDTree configs
+"autocmd vimenter * NERDTree
+autocmd vimenter * if !argc() | NERDTree | endif
+map <C-n> :NERDTreeToggle<CR>
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 "color scheme
 set background=dark

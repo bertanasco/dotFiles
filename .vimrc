@@ -29,7 +29,8 @@ set complete-=i
 
 "enable line numbers 
 set nu
-
+"omni completion config
+set omnifunc=syntaxcomplete#Complete
 "================================================
 "P L U G I N S
 "===============================================
@@ -46,6 +47,7 @@ set t_Co=256
 let g:solarized_termcolors = 256
 let g:solarized_visibility = "high"
 let g:solarized_contrast = "high"
+"color mango
 colorscheme solarized
 "colorscheme rails
 "colorscheme noctu

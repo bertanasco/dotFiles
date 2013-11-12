@@ -24,13 +24,18 @@ noremap <Right> <NOP>
 set backspace=indent,eol,start
 
 set showmatch
-set smarttab
+
+set tabstop=4  
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 set complete-=i
 
 "enable line numbers 
 set nu
 "omni completion config
 set omnifunc=syntaxcomplete#Complete
+
 "================================================
 "P L U G I N S
 "===============================================
@@ -48,8 +53,8 @@ let g:solarized_termcolors = 256
 let g:solarized_visibility = "high"
 let g:solarized_contrast = "high"
 "color mango
-colorscheme solarized
-"colorscheme rails
+"colorscheme solarized
+colorscheme rails
 "colorscheme noctu
 
 "fix background color

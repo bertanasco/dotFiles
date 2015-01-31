@@ -1,5 +1,5 @@
 set nocompatible
-set hls "set highlighint 
+set hls "highlighting 
 
 "plugins
 call pathogen#infect()

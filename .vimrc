@@ -1,6 +1,7 @@
 set nocompatible
+set hls "set highlighint 
 
-" plugins
+"plugins
 call pathogen#infect()
 "generate helptags
 call pathogen#helptags()
@@ -25,11 +26,12 @@ set backspace=indent,eol,start
 
 set showmatch
 
-set tabstop=4  
-set shiftwidth=4
+set tabstop=8 "A tab is 8 spaces"
+set shiftwidth=4 
 set softtabstop=4
-set expandtab
+set expandtab   "Always uses spaces instead of tabs
 set complete-=i
+set shiftround  "Round indent to nearest shiftwidth multiple"
 
 "enable line numbers 
 set nu
